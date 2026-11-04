@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>seleniumjs-test</title>
+        <script>
+            function showalert(){
+                let name=document.getElementById("name").value;
+                if(name.trim()===""){
+                    alert("Plz enter your name!!");
+                }else{
+                    alert("Hello " + name + "!");
+                }
+
+
+            }
+        </script>
+
+        <style>
+            body{
+                background-color: antiquewhite;
+                text-align: center;
+                margin-top: 50px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h3>seleniumjs</h3>
+        <label for="name">Name</label>
+
+        <input type="text" id="name" >
+        <br><br>
+
+        <input type="button" id="submit" value="submit" onclick="showalert()">
+    </body>
+</html>

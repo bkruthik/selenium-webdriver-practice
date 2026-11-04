@@ -4,7 +4,7 @@ import time
 
 driver=webdriver.Chrome()
 
-driver.get("http://127.0.0.1:5500/seleniumjs-test.html")
+driver.get("")
 
 time.sleep(3)
 
